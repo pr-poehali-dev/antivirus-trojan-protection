@@ -357,28 +357,56 @@ const Index = () => {
                     </ul>
                   </div>
                 </div>
-                <div className="mt-6 p-6 bg-red-600 text-white rounded-lg">
-                  <div className="flex items-center justify-between">
-                    <div>
-                      <h3 className="text-xl font-bold mb-2">Kaspersky Antivirus 2024</h3>
-                      <p className="text-red-100">Полная защита вашего компьютера</p>
-                      <p className="text-sm mt-1">Размер: 284 МБ | Версия: 22.0.17.438</p>
-                    </div>
-                    <div className="text-right">
-                      <a 
-                        href="https://www.kaspersky.ru/downloads/free-antivirus" 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="inline-block"
-                      >
-                        <Button 
-                          size="lg" 
-                          className="bg-white text-red-600 hover:bg-gray-100 border-2 border-white"
+                <div className="mt-6 space-y-4">
+                  <div className="p-6 bg-red-600 text-white rounded-lg">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <h3 className="text-xl font-bold mb-2">Kaspersky Antivirus 2024</h3>
+                        <p className="text-red-100">Полная защита вашего компьютера</p>
+                        <p className="text-sm mt-1">Размер: 284 МБ | Версия: 22.0.17.438</p>
+                      </div>
+                      <div className="text-right">
+                        <a 
+                          href="https://www.kaspersky.ru/downloads/free-antivirus" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="inline-block"
                         >
-                          <Icon name="Download" size={20} className="mr-2" />
-                          Скачать бесплатно
-                        </Button>
-                      </a>
+                          <Button 
+                            size="lg" 
+                            className="bg-white text-red-600 hover:bg-gray-100 border-2 border-white"
+                          >
+                            <Icon name="Download" size={20} className="mr-2" />
+                            Скачать бесплатно
+                          </Button>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="p-6 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-lg">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <h3 className="text-xl font-bold mb-2">Рабочая версия</h3>
+                        <p className="text-blue-100">Готовый к использованию антивирус</p>
+                        <p className="text-sm mt-1">Размер: 156 МБ | Portable версия</p>
+                      </div>
+                      <div className="text-right">
+                        <a 
+                          href="https://disk.yandex.ru/d/AntivKasper2024" 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="inline-block"
+                        >
+                          <Button 
+                            size="lg" 
+                            className="bg-white text-blue-600 hover:bg-gray-100 border-2 border-white"
+                          >
+                            <Icon name="Download" size={20} className="mr-2" />
+                            Скачать рабочую версию
+                          </Button>
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
